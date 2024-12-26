@@ -1,14 +1,21 @@
-### ENCODER 8TO3 DATAFLOW Modelling
+### NAME:KATHIRESH.M
 
-**AIM:**
+### REG NO:24901022
+
+### EXP NO-5:ENCODER 8TO3 DATAFLOW MODELLING
+
+### AIM:
 
 To implement  Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:** Quartus prime
+### SOFTWARE REQUIRED: Quartus prime
 
-**THEORY**
+### THEORY:
 
-**Encoder 8 To 3**
+An 8-to-3 encoder is a digital circuit that compresses 8 input lines into 3 output lines. It essentially identifies which of the 8 inputs is active and represents this in binary on the 3 output lines. Here's how the data flow modeling for an 8-to-3 encoder can be described.
+
+
+### ENCODER 8 TO 3:
 
 The 8 to 3 line Encoder is also known as Octal to Binary Encoder. In 8 to 3 line encoder, there is a total of eight inputs, i.e., D0, D1, D2, D3, D4, D5, D6, and D7 and three outputs, i.e., A0, A1, and A2. In 8-input lines, one input-line is set to true at a time to get the respective binary code in the output side. Below are the block diagram and the truth table of the 8 to 3 line encoder.
 
@@ -16,7 +23,7 @@ The 8 to 3 line Encoder is also known as Octal to Binary Encoder. In 8 to 3 line
 
 Figure 01  Block Diagram of Encoder 8 * 3
 
-**Truth Table**
+### TRUTH TABLE:
 
 ![image](https://github.com/naavaneetha/ENCODER8TO3DATAFLOW/assets/154305477/35496b14-ae6e-4cd1-9abd-d6736b576575)
 
@@ -34,23 +41,33 @@ Logical circuit of the above expressions is given below:
 
 Figure 02  Encoder 8 * 3
 
-**Procedure**
+### PROCEDURE:
 
-/* write all the steps invloved */
+1.Type the program in Quartus software.
 
-**PROGRAM**
+2.Compile and run the program.
 
-/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
+3.Generate the RTL schematic and save the logic diagram.
 
-Developed by: RegisterNumber:
-*/
+4.Create nodes for inputs and outputs to generate the timing diagram.
 
-**RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
-
-**TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
-
-**RESULTS**
+5.For different input combinations generate the timing diagram.
 
 
+### PROGRAM:
+
+![Screenshot 2024-12-25 153417](https://github.com/user-attachments/assets/ba641f54-2cdb-4aaa-88b9-c12803015c76)
 
 
+### RTL LOGIC FOR ENCODER 8 TO 3 IN DATAFLOW MODELLING:
+
+![Screenshot 2024-12-25 153433](https://github.com/user-attachments/assets/7baef4f5-8331-4807-b347-e9f188771ad7)
+
+
+### TIMING DIGRAMS FOR  ENCODER 8 TO 3 IN DATAFLOW MODELLING:
+
+![Screenshot 2024-12-25 153459](https://github.com/user-attachments/assets/3858ac65-f9ac-4e96-965f-7863fe26a121)
+
+### RESULTS:
+
+The implementation of the 8-to-3 encoder in dataflow modeling using Verilog, along with the validation of its functionality through functional tables, is completed.
